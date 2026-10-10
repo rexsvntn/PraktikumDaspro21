@@ -1,9 +1,9 @@
-import java.util.Scanner;
+import  java.util.Scanner;
 public class StudiKasus121 {
-    
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);  
 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
         int hargaPerCup = 18000;
         int jumlahCup, uangBayar;
         int totalHarga, diskon, totalBayar;
@@ -11,10 +11,9 @@ public class StudiKasus121 {
 
         System.out.print("Masukkan jumlah cup yang dibeli: ");
         jumlahCup = sc.nextInt();
-        System.out.print("Masukkan jumlah uang yang dibayarkan: ");
+        System.out.print("Masukkan uang yang dibayarkan: ");
         uangBayar = sc.nextInt();
+
         
-
-
     }
 }
